@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.navbar {
+    background: #131313;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar__logo {
+    background-color: #068600;
+    background-image: linear-gradient(to top, #0c4d00 50%, #068600 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.button-employe {
+    color:blue;
+    border-radius: 2mm;
+    position: fixed;
+    left: 30%;
+    top: 50%;
+    height: 100px;
+    width: 120px;
+    border: none;
+}
+
+.button-employe:hover {
+    cursor: pointer;
+    background-color: gray;
+    height: 105px;
+    width: 125px;
+    
+
+}
